@@ -325,6 +325,7 @@ forHTTPHeaderField:(NSString *)field
     NSData *basicAuthCredentials = [[NSString stringWithFormat:@"%@:%@", username, password] dataUsingEncoding:NSUTF8StringEncoding];
     NSString *base64AuthCredentials = [basicAuthCredentials base64EncodedStringWithOptions:(NSDataBase64EncodingOptions)0];
     [self setValue:[NSString stringWithFormat:@"Basic %@", base64AuthCredentials] forHTTPHeaderField:@"Authorization"];
+   
 }
 
 - (void)clearAuthorizationHeader {
@@ -358,6 +359,9 @@ forHTTPHeaderField:(NSString *)field
 
     NSMutableURLRequest *mutableRequest = [[NSMutableURLRequest alloc] initWithURL:url];
     mutableRequest.HTTPMethod = method;
+    [self setValue:@"application/json" forHTTPHeaderField:@"Accept"];
+//    NSString * token = @"Mx4bV2AH9sQ/rJ+mME8P1B3bgQ1hPTEyNTE0MTQ0MTEmYj1vY3Imaz1BS0lEdjM2NGRkSDhYTnVWbUtLVEJJeEE4SjY2UUc4UXRPWTUmZT0xNDg4MzYwMTE4JnQ9MTQ4ODM1MDExOCZyPTM5MTkzMDU3MDEmdT0wJmY9";
+//    [self setValue:[NSString stringWithFormat:@"%@",token] forHTTPHeaderField:@"Authorization"];
 //    [mutableRequest setValue:[NSString stringWithFormat:@"xxxxxx""] forHTTPHeaderField:@"Authorization"];
     for (NSString *keyPath in AFHTTPRequestSerializerObservedKeyPaths()) {
         if ([self.mutableObservedChangedKeyPaths containsObject:keyPath]) {

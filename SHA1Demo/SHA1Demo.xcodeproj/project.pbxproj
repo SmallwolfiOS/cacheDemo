@@ -14,6 +14,7 @@
 		965EEF4D1E5EB8B7001A8069 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 965EEF4B1E5EB8B7001A8069 /* Main.storyboard */; };
 		965EEF4F1E5EB8B7001A8069 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 965EEF4E1E5EB8B7001A8069 /* Assets.xcassets */; };
 		965EEF521E5EB8B7001A8069 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 965EEF501E5EB8B7001A8069 /* LaunchScreen.storyboard */; };
+		96653AFC1E667AC600C25777 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 96653AFB1E667AC600C25777 /* ViewController2.m */; };
 		96AFFA7D1E6507DC0005AB76 /* NetworkSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AFFA691E6507DC0005AB76 /* NetworkSessionManager.m */; };
 		96AFFA7E1E6507DC0005AB76 /* NetworkStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AFFA6B1E6507DC0005AB76 /* NetworkStatus.m */; };
 		96AFFA871E6515550005AB76 /* testuplaod.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96AFFA861E6515550005AB76 /* testuplaod.jpg */; };
@@ -31,6 +32,8 @@
 		965EEF4E1E5EB8B7001A8069 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		965EEF511E5EB8B7001A8069 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		965EEF531E5EB8B7001A8069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96653AFA1E667AC600C25777 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		96653AFB1E667AC600C25777 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 		96AFFA681E6507DC0005AB76 /* NetworkSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkSessionManager.h; sourceTree = "<group>"; };
 		96AFFA691E6507DC0005AB76 /* NetworkSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkSessionManager.m; sourceTree = "<group>"; };
 		96AFFA6A1E6507DC0005AB76 /* NetworkStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkStatus.h; sourceTree = "<group>"; };
@@ -96,6 +99,8 @@
 				965EEF481E5EB8B7001A8069 /* ViewController.h */,
 				96AFFA861E6515550005AB76 /* testuplaod.jpg */,
 				965EEF491E5EB8B7001A8069 /* ViewController.m */,
+				96653AFA1E667AC600C25777 /* ViewController2.h */,
+				96653AFB1E667AC600C25777 /* ViewController2.m */,
 				965EEF4B1E5EB8B7001A8069 /* Main.storyboard */,
 				965EEF4E1E5EB8B7001A8069 /* Assets.xcassets */,
 				965EEF501E5EB8B7001A8069 /* LaunchScreen.storyboard */,
@@ -261,6 +266,7 @@
 				96AFFA7D1E6507DC0005AB76 /* NetworkSessionManager.m in Sources */,
 				965EEF471E5EB8B7001A8069 /* AppDelegate.m in Sources */,
 				965EEF441E5EB8B7001A8069 /* main.m in Sources */,
+				96653AFC1E667AC600C25777 /* ViewController2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
